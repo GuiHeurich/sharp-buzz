@@ -6,18 +6,18 @@ namespace Exercise
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Welcome to FizzBuzz!");
+            Console.WriteLine("Welcome to SharpBuzz!");
 
             for (int a = 1; a < 101; a = a + 1) {
-                FizzBuzz(a);
+                SharpBuzz(a);
              }
         }
 
-        public static void FizzBuzz(int args) 
+        public static void SharpBuzz(int args) 
         {
             if (args % 15 == 0)
             {
-                Console.WriteLine("FizzBuzz");
+                Console.WriteLine("SharpBuzz");
             }
             else if (args % 5 == 0)
             {
@@ -25,7 +25,7 @@ namespace Exercise
             }
             else if (args % 3 == 0)
             {
-                Console.WriteLine("Fizz");
+                Console.WriteLine("Sharp");
             }
             else
             {
